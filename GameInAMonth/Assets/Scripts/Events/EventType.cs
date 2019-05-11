@@ -1,0 +1,6 @@
+﻿public enum EventType {
+    BLOCK_DESTROYED,
+    ALL_BLOCKS_DESTROYED,
+    SCENE_FADED_IN,
+    SCENE_FADED_OUT
+}
