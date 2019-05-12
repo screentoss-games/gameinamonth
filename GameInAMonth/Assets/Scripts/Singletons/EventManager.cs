@@ -8,20 +8,14 @@ public class EventManager : MonoBehaviour {
     public delegate void Unsubscribe();
     private Dictionary<EventType, UnityEvent> eventDictionary;
 
-    private static EventManager eventManager;
-
-    public static EventManager Instance {
-        get {
-            return eventManager;
-        }
-    }
+    public static EventManager Instance { get; private set; }
     void Awake() {
-        if (eventManager == null) {
-            eventManager = this;
+        if (Instance == null) {
+            Instance = this;
             DontDestroyOnLoad(gameObject);
             Init();
         }
-        else if (eventManager != this) {
+        else if (Instance != this) {
             Destroy(gameObject);
         }
     }
