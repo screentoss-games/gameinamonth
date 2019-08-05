@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1282243795152030}
+  m_RootGameObject: {fileID: 1084729790484526}
   m_IsPrefabAsset: 1
---- !u!1 &1282243795152030
+--- !u!1 &1084729790484526
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4056818877350686}
-  - component: {fileID: 33127447318475652}
-  - component: {fileID: 23187026506684796}
+  - component: {fileID: 4720070210593682}
+  - component: {fileID: 33351314750342764}
+  - component: {fileID: 23869274261276652}
   m_Layer: 0
   m_Name: cocoFlake
   m_TagString: Untagged
@@ -28,25 +28,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4056818877350686
+--- !u!4 &4720070210593682
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1282243795152030}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 271.4, y: 30, z: 43.7}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_GameObject: {fileID: 1084729790484526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 150, y: 150, z: 150}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23187026506684796
+--- !u!23 &23869274261276652
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1282243795152030}
+  m_GameObject: {fileID: 1084729790484526}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -76,10 +76,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33127447318475652
+--- !u!33 &33351314750342764
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1282243795152030}
+  m_GameObject: {fileID: 1084729790484526}
   m_Mesh: {fileID: 4300000, guid: c6c63b0534f3f6e46aa7dcee2c4a00fd, type: 3}
